@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Oct 22 22:59:19 ICT 2020
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\SARK-29\\AndroidStudioProjects\\pemrograman-mobile-2020\\src\\DroidCafeInput\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
