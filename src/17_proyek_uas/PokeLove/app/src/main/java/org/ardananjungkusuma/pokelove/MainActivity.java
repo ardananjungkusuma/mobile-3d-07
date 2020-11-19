@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void infoClick(View view) {
-        Intent i = new Intent(MainActivity.this, Info.class);
+        Intent i = new Intent(MainActivity.this, InfoActivity.class);
         startActivity(i);
     }
 
@@ -41,18 +41,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     protected void exitByBackKey() {
-        AlertDialog alertbox = new AlertDialog.Builder(this)
-                .setMessage("Do you want to exit application?")
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-
-                    public void onClick(DialogInterface arg0, int arg1) {
-                        finish();
-                    }
-                })
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface arg0, int arg1) {
-                    }
-                })
-                .show();
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
+
+    public void snorlaxGame(View view) {
+        Intent i = new Intent(MainActivity.this, SnorlaxGameActivity.class);
+        startActivity(i);
+    }
+    
+    // TODO MAKE EXIT BUTTON
 }
