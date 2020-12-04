@@ -1,0 +1,90 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+            <variable
+                name="repo"
+                type="com.ardananjungkusuma.latihanretrofit.models.Repo" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repository Retrofit"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/cariByUsername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter Github Uname" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="searchIt"
+                android:text="SEARCH" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:text="ID Repo :  " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="8dp"
+            android:text="@{repo.id.toString()}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:text="Name :  " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="8dp"
+            android:text="@{repo.name}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:text="HTML URL :  " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="8dp"
+            android:text="@{repo.htmlUrl}" />
+    </LinearLayout>
+</layout>
