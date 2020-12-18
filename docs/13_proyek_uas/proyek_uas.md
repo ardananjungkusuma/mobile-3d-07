@@ -1,10 +1,22 @@
 # 13 - Proyek Uas
 
-## Tujuan Pembelajaran
+## Nama Aplikasi
 
-1. Mahasiswa menerapkan semua materi yang telah diajarkan dan mengimplementasikannya ke dalam sebuah program.
+PokeLove
+[Link Apk & Code(Java)](https://github.com/ardananjungkusuma/mobile-3d-07/tree/master/src/13_proyek_uas)
 
-## Hasil Aplikasi
+## Deskripsi Aplikasi
+
+Aplikasi Pokedex yang bertujuan memudahkan para Pokémon Trainer untuk mengidentifikasi suatu pokemon yang belum pernah ditemui atau belum pernah dihadapi sebelumnya. Baik dari segi elemen, kekuatan, kelemahan dan informasi mengenai Pokémon itu sendiri.
+
+## Identitas Pengembang (Developer)
+
+NIM : 1841720041
+Nama : Ardan Anjung Kusuma
+Kelas : TI-3D
+Website : http://ardananjungkusuma.github.io/
+
+## Fitur Aplikasi
 
 a. Splash Screen
 
@@ -83,3 +95,23 @@ Saat diklik kirim intent untuk memilih email
 Redirect ke gmail dan anda bisa mengetikan kritik/saran
 
 ![SS](img/22.jpg)
+
+## Saran
+
+Mungkin kedepannya akan terus dikembangkan
+
+## Kesimpulan
+
+Belajar banyak mengenai mobile programming, mengerjakannya terasa ringan karena memilih topik kesukaan saya.
+
+## Sumber Data & Refrensi
+
+- http://bulbapedia.bulbagarden.net/
+
+- https://github.com/synxhronous/pokemon-api/blob/main/pokedex.json
+
+- https://www.serebii.net/
+
+- https://stackoverflow.com/
+
+- https://www.youtube.com/
