@@ -3,6 +3,7 @@
 ## Nama Aplikasi
 
 PokeLove
+
 [Link Apk & Code(Java)](https://github.com/ardananjungkusuma/mobile-3d-07/tree/master/src/13_proyek_uas)
 
 ## Deskripsi Aplikasi
@@ -12,8 +13,11 @@ Aplikasi Pokedex yang bertujuan memudahkan para Pokémon Trainer untuk mengident
 ## Identitas Pengembang (Developer)
 
 NIM : 1841720041
+
 Nama : Ardan Anjung Kusuma
+
 Kelas : TI-3D
+
 Website : http://ardananjungkusuma.github.io/
 
 ## Fitur Aplikasi
